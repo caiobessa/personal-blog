@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(48, 47, 47);
+    color : #eee;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header{
+    background-image:  linear-gradient(rgb(36, 37, 37)
+    ,rgba(48, 47, 47, 0.8)), url('./images/HD-Snowy-Mountains-Wallpapers.jpg');
+    height: 90vh;
+    background-size: caver;
+    background-position: top;
+}
+
+.header__personalInformation__content{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-40%);
+}
+
+.header__personalInformation__content--title{
+    font-size: 7rem;
+}
+
+.header__personalInformation__content--sumary{
+    font-size: 2rem;
+}
