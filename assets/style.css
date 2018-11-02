@@ -69,7 +69,7 @@ html {
 .personalLinks{
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding-top: 3rem;
     font-size: 4.5rem;
     justify-content: center;
     
