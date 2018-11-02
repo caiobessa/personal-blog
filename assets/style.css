@@ -84,7 +84,7 @@ html {
     
 }
 
-a,a:visited {
+a,a:visited,a:link,a:hover,a:active {
     color: #eee;
 }
 .personalLinks__container{
