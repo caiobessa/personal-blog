@@ -59,6 +59,13 @@ html {
     letter-spacing: 0.1rem;
 }
 
+.header__personalInformation__content--item{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+
+}
+
 .personalLinks{
     display: flex;
     align-items: center;
