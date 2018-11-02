@@ -34,7 +34,7 @@ html {
     background-image:  linear-gradient(rgb(36, 37, 37)
     ,rgba(48, 47, 47, 0.8)), url('./images/HD-Snowy-Mountains-Wallpapers.jpg');
     height: 100vh;
-    background-size: caver;
+    background-size: cover;
     background-position: top;
     display: flex;
 }
@@ -147,3 +147,11 @@ a,a:visited {
     }
 }
 
+@media (max-width: 450px) {
+    .header__personalInformation__content--title{
+        font-size: 3.7rem;
+        font-weight : 400;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+   }
+}
