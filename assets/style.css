@@ -52,11 +52,17 @@ html {
     font-weight : 400;
     text-transform: uppercase;
     letter-spacing: 3rem;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
 .header__personalInformation__content--sumary{
     font-size: 1.7rem;
     letter-spacing: 0.1rem;
+    animation-name: moveInRigth;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
 .header__personalInformation__content--item{
@@ -72,6 +78,9 @@ html {
     padding-top: 3rem;
     font-size: 4.5rem;
     justify-content: center;
+    animation-name: moveInBotton;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
     
 }
 .personalLinks__container{
@@ -86,4 +95,51 @@ html {
     justify-content: space-around;
 }  
 
+@keyframes moveInLeft {
+
+    0% {
+        opacity :0;
+        transform: translateX(10rem);
+    }
+    80%{
+        transform: translateX(-1rem) ;
+    }
+    100%{
+        opacity: 1; 
+        transform : translate(0) ;
+    }
+
+}
+
+@keyframes moveInBotton {
+
+    0% {
+        opacity :0;
+        transform: translateY(10rem);
+    }
+    80%{
+        transform: translateY(-1rem) ;
+    }
+    100%{
+        opacity: 1; 
+        transform : translate(0) ;
+    }
+
+}
+
+@keyframes moveInRigth {
+
+    0% {
+        opacity :0;
+        transform: translateX(-10rem);
+    }
+
+    80%{
+        transform: translateX(1rem);
+    }
+    100%{
+        opacity: 1; 
+        transform : translate(0);
+    }
+}
 
