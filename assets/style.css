@@ -80,7 +80,9 @@ html {
     justify-content: center;
     animation-name: moveInBotton;
     animation-duration: 1s;
+    animation-delay: 1s;
     animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
     
 }
 
@@ -120,9 +122,6 @@ a,a:visited,a:link,a:hover,a:active {
     0% {
         opacity :0;
         transform: translateY(10rem);
-    }
-    80%{
-        transform: translateY(-1rem) ;
     }
     100%{
         opacity: 1; 
