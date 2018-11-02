@@ -83,6 +83,10 @@ html {
     animation-timing-function: ease-out;
     
 }
+
+a,a:visited {
+    color: #eee;
+}
 .personalLinks__container{
     flex-direction: row;
     display: flex;
