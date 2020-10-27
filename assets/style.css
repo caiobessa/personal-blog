@@ -96,7 +96,7 @@ a,a:visited,a:link,a:hover,a:active {
 .personalLinks__container{
     flex-direction: row;
     display: flex;
-    width: 50vh;
+    width: 18rem;
     justify-content: space-around;
 }  
 
